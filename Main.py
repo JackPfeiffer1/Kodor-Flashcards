@@ -1,14 +1,6 @@
 import zipfile
-
-# Open the .apkg file
-with zipfile.ZipFile("50_key_history_dates.apkg", "r") as zip_ref:
-    # Extract all contents to a temporary directory
-    zip_ref.extractall("temp_extracted")
-
-# Now you can process the extracted files as needed
 import os
 import sqlite3
-import json
 import shutil
 
 
