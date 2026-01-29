@@ -4,7 +4,7 @@ import sqlite3
 import shutil
 
 
-def extract_anki_notes(apkg_path):
+def ankiExtract(apkg_path):
 
     with zipfile.ZipFile(apkg_path, "r") as zip_ref:  # open the .apkg file
         # Extract all contents to a temporary directory

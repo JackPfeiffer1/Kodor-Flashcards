@@ -2,7 +2,7 @@ import apkgExtraction
 
 
 def main():
-    questions_answers = apkgExtraction.extract_anki_notes("50_key_history_dates.apkg")
+    questions_answers = apkgExtraction.ankiExtract("testdata.apkg")  # returns a dict
     print(questions_answers)
 
 
